@@ -22,10 +22,10 @@ class Lotto {
 		printLotto();
 	}
 	public void printMain() {
-		System.out.println("1~5 ì¤‘ ì›í•˜ëŠ” ë¡œë˜ ì¤„ ìˆ˜ì˜ ë²ˆí˜¸ë¥¼ ì„ íƒí•˜ì„¸ìš”.");
+		System.out.println("¿øÇÏ½Ã´Â ·Î¶Ç ÁÙ ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
 		
 		for(num = 1 ; num <= 5 ; num++) 
-			System.out.println(num + "." + num + "ì¤„");
+			System.out.println(num + "." + num + "ÁÙ");
 			num = sc.nextInt();
 	}
 	
